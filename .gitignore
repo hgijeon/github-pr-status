@@ -1,0 +1,98 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the Go coverage tool
+*.out
+
+# Temporary build files
+*.log
+
+# Dependency directories (example)
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Project-specific IntelliJ files
+*.go.intellij/*.log
+*.go.intellij/out/
+*.go.intellij/cache/
+
+# Ignore build output directory
+bin/
+build/
+
+# Ignore IDE specific metadata
+.idea_modules/
+
+# Ignore compiled code
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE specific project files
+*.idea/
+.idea/
+*.swp
+*~.nib
+.DS_Store
+
+# Go test binary
+*.test
+
+# Go race detector output
+*.race
+
+# Go coverage tool output
+*.cov
+
+# Ignore specific binaries by name
+your_project_executable
+
+# OS-specific files
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# macOS directory attributes
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux directory attributes
+*~
+
+# Additional files and directories to ignore
+*.bak
+*.tmp
+*.old
+*.swp
+*.swo
+
+dist/
